@@ -1,0 +1,23 @@
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "5.41.0"
+    }
+    }
+}
+provider "aws" {
+  region  = "ap-south-1"
+}
+resource "aws_instance" "app_server" {
+  ami           = "ami-08bca0a1996622bee"
+  instance_type = "t4g.micro"
+  key_name = "visual_link_key"
+  tags = {
+    Name = "visual_link"
+  }
+}
+resource "aws_eip" "lb" {
+  instance = aws_instance.app_server.id
+  #domain   = "vpc"
+}

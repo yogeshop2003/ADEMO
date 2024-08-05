@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Exo';
+    src: url('Exo-Medium.eot');
+    src: url('Exo-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Exo-Medium.woff2') format('woff2'),
+        url('Exo-Medium.woff') format('woff'),
+        url('Exo-Medium.ttf') format('truetype'),
+        url('Exo-Medium.svg#Exo-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Exo';
+    src: url('Exo-SemiBold.eot');
+    src: url('Exo-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Exo-SemiBold.woff2') format('woff2'),
+        url('Exo-SemiBold.woff') format('woff'),
+        url('Exo-SemiBold.ttf') format('truetype'),
+        url('Exo-SemiBold.svg#Exo-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('Orbitron-Bold.eot');
+    src: url('Orbitron-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Orbitron-Bold.woff2') format('woff2'),
+        url('Orbitron-Bold.woff') format('woff'),
+        url('Orbitron-Bold.ttf') format('truetype'),
+        url('Orbitron-Bold.svg#Orbitron-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('Orbitron-SemiBold.eot');
+    src: url('Orbitron-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Orbitron-SemiBold.woff2') format('woff2'),
+        url('Orbitron-SemiBold.woff') format('woff'),
+        url('Orbitron-SemiBold.ttf') format('truetype'),
+        url('Orbitron-SemiBold.svg#Orbitron-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('Orbitron-Medium.eot');
+    src: url('Orbitron-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Orbitron-Medium.woff2') format('woff2'),
+        url('Orbitron-Medium.woff') format('woff'),
+        url('Orbitron-Medium.ttf') format('truetype'),
+        url('Orbitron-Medium.svg#Orbitron-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
