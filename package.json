@@ -25,14 +25,24 @@
     "framer-motion": "^10.16.4",
     "gsap": "^3.11.4",
     "jquery": "^3.6.4",
+    "konva": "^9.3.14",
     "next": "13.3.1",
     "postcss": "8.4.23",
     "react": "18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
     "react-dom": "18.2.0",
+    "react-draggable": "^4.4.6",
+    "react-icons": "^5.3.0",
     "react-intersection-observer": "^9.4.3",
+    "react-konva": "^18.2.10",
     "react-player": "^2.9.0",
+    "react-slick": "^0.30.2",
     "react-toastify": "^9.1.2",
+    "react-vertical-timeline-component": "^3.6.0",
     "sharp": "^0.33.3",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.12",
+    "tailwind-merge": "^2.5.2",
     "tailwindcss": "3.3.2",
     "three": "^0.152.2",
     "typescript": "5.0.4",
@@ -42,6 +52,9 @@
   "devDependencies": {
     "@types/aos": "^3.0.4",
     "@types/jquery": "^3.5.16",
-    "@types/react-scroll": "^1.8.7"
+    "@types/react-beautiful-dnd": "^13.1.8",
+    "@types/react-scroll": "^1.8.7",
+    "@types/react-slick": "^0.23.13",
+    "@types/react-vertical-timeline-component": "^3.3.6"
   }
 }

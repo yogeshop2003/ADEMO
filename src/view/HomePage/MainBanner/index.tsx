@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import imgLogoUrl from "~/images/logo.png";
 import imgStart from "~/images/start.svg";

@@ -8,6 +8,9 @@ import { errorMSG, successMSG } from "@/constants/toastMessages";
 
 let ethereum: Window["ethereum"];
 
+
+// for my understanding..
+
 if (typeof window !== "undefined") {
   ethereum = window.ethereum;
 }

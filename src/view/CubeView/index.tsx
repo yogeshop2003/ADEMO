@@ -43,7 +43,7 @@ function Box() {
     "assets/cube/E10.png",
   ]);
 
-  const shuffledTextures = shuffleArray(texturePaths.slice(0, 6));
+  const shuffledTextures = shuffleArray(texturePaths.slice(0,texturePaths.length));
   const textures = useLoader(TextureLoader, shuffledTextures);
 
   const materialElements = [];

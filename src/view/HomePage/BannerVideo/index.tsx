@@ -36,6 +36,7 @@ export default function BannerVideo(): JSX.Element {
   }, []);
 
   return (
+    <>
     <section className="video-container w-full" id="banner-video">
       <div className="overlay relative">
         <video
@@ -49,5 +50,6 @@ export default function BannerVideo(): JSX.Element {
         />
       </div>
     </section>
+    </>
   );
 }

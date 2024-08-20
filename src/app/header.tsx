@@ -71,7 +71,7 @@ export default function Header(): JSX.Element {
           <div className="">
             <div className="relative flex h-16 items-center justify-between px-4">
               <div className="flex items-center justify-between sm:items-stretch w-full">
-                <div className="flex flex-shrink-0 items-center md:absolute md:top-5 mint-btn">
+                {/* <div className="flex flex-shrink-0 items-center md:absolute md:top-5 mint-btn">
                   <Link
                     title="MINT PAGE"
                     href="mint"
@@ -79,7 +79,7 @@ export default function Header(): JSX.Element {
                   >
                     MINT PAGE {connected && ""}
                   </Link>
-                </div>
+                </div> */}
 
                 <div className="hidden md:ml-6 md:block md:absolute md:top-5 desktop-menu">
                   <div className="flex space-y-1 flex-col ff-inter-r">
@@ -105,8 +105,9 @@ export default function Header(): JSX.Element {
                 <div className="hidden md:ml-6 md:block md:fixed md:end-14 desktop-social">
                   <div className="flex space-y-3 2xl:space-y-9 flex-col">
                     <a
-                      href="#"
+                      href="https://x.com/ApesFarFromHome"
                       title="twitter"
+                      target="blank"
                       className="social-link text-white hover:text-secondary"
                     >
                       <svg
